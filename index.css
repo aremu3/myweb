@@ -15,6 +15,87 @@ body{
 	padding: 10px;
 
 }
+.task{
+	border-radius: 24px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px;
+	width: 450px;
+	position: relative;
+	top: 500px;
+	left: 15%;
+	margin: 20px;
+	background-color:#140033;
+	font-size: 30px;
+	color: white;
+	display: flex;
+
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 20px
+}
+#navbar{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+	display: flex;
+	padding: 20px;
+	width: 1000px;
+	background-color:#140033;
+	border-radius: 24px;
+}
+#infos{
+	display: flex;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+}
+.search{
+	border-radius: 24px;
+		background:white;
+		height: 40px;
+
+}
+.h{
+	position: absolute;
+	display: inline;
+	left: 750px;
+	top: 40px;
+
+}
+.info{
+	width: 200px;
+	height: 340px;
+	background-color:#140033;
+	margin: 10px;
+	border-radius: 24px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.comments{
+	border-radius: 24px;
+	border: 2px solid white;
+	color: white;
+	padding: 10px;
+	width: 170px;
+	margin-left: 15px;
+	margin-top: 10px;
+
+}
+.m{
+	position: relative;
+	top: 30px;
+	left: 15px;
+}
+.image{
+	border-radius: 24px;
+	color: white;
+	font-size: 150px;
+	border: 2px solid white;
+	height:250px;
+	width: 170px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
 .input{
 	padding: 10px;
 	margin: 10px;
@@ -24,6 +105,7 @@ body{
 	border-top-color:transparent;
 	border-right-color:transparent;
 	border-left-color:transparent;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #form_pic{
@@ -31,6 +113,7 @@ body{
 	margin-top: 20px;
 	font-size: 70px;
 	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #form{
 	position:absolute;
@@ -42,7 +125,7 @@ body{
 	border-radius: 24px;
 
 }
-#div{
+.div{
 	background-color: #140033;
 	padding: 10px;
 	border-radius: 24px;
@@ -54,6 +137,7 @@ body{
 	text-align: center;
 	color: white;
 	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #say{
@@ -75,10 +159,42 @@ body{
 	color: white;
 	font-size: 20px;
 	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #ent{
 	padding: 50px;
 	font-size: 25px;
 	color: white;
 	text-align: center;
+}
+.rect{
+	width: 240px;
+	height: 190px;
+	background-color: grey
+}
+.circle{
+	width: 60px;
+	height: 60px;
+	background-color: grey;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.group{
+	display: flex;
+}
+.vis{
+	margin: 20px;
+	width: 140px;
+	height: 5px;
+	background-color: grey
+}
+#tasking{
+	position: relative;
+	left: 60px;
+	top: 190px;
+	margin-right: 250px;
+	margin-left: 20px;
+}
+#groups{
+	display: flex;
 }
