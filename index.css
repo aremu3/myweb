@@ -170,7 +170,8 @@ ul li{
 .rect{
 	width: 240px;
 	height: 190px;
-	background-color: grey
+	background-color: grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .circle{
 	width: 60px;
@@ -178,6 +179,7 @@ ul li{
 	background-color: grey;
 	border-radius: 50%;
 	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .group{
 	display: flex;
@@ -186,9 +188,10 @@ ul li{
 	margin: 20px;
 	width: 140px;
 	height: 5px;
-	background-color: grey
+	background-color: grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#tasking{
+.tasking{
 	position: relative;
 	left: 60px;
 	top: 190px;
